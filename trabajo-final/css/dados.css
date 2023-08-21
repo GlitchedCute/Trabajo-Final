@@ -1,0 +1,107 @@
+body{
+    background-image: url("/trabajo-final/image/large-casino-wallpaper-casino-18209296.jpg");
+	margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav .boton{
+	width: 100px;
+	background-color: #1bd47e;
+	border: 2px solid black;
+    padding: 5px;
+	border-radius: 5px;
+	color: white;
+	margin: 16px 16px;
+	font-size: 12px;
+    cursor: pointer;
+}
+
+nav .boton:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+	margin-bottom: 50px;
+    font-size: 50px;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+.padre{
+    background-image: url("/trabajo-final/image/textura-tela-verde.jpg");
+    background-size: cover;
+    border: 2px solid gold;
+    border-style: groove;
+    width: 650px;
+    padding: 50px;
+   margin: 20px auto;
+
+    box-shadow: 15px 30px 35px rgba(0,0,0,0.1);
+    border-radius: 10px;
+
+}
+
+button{
+    background-color: #a00c0c;
+	border: 2px solid black;
+	padding: 12px;
+	border-radius: 5px;
+	color: white;
+	margin: 16px 0;
+	font-size: 20px;
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+    border: px solid #fff;
+}
+
+
+.dice-container {
+    display: flex;
+
+
+}
+
+.dice {
+    background-color: white;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.dice-dot {
+	--top: 0%;
+	--left: 0%;
+
+	width: 20px;
+	height: 20px;
+	background-color: #000000;
+	border-radius: 50%;
+
+
+	position: absolute;
+	top: var(--top);
+	left: var(--left);
+	transform: translateX(calc(var(--left) * -1)) translateY(calc(var(--top) * -1));
+}
+
+.btn-roll-dice {
+	margin-top: 15px;
+}
