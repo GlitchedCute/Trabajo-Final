@@ -22,13 +22,13 @@ main{
     font-size: 25px;
 }
 
-nav{
+section{
     text-align: right;
     margin-top: 5px;
     margin-right: 5px;
 }
 
-nav .boton{
+section .boton{
 	width: 100px;
 	background-color: #1bd47e;
 	border: 2px solid black;
@@ -40,7 +40,7 @@ nav .boton{
     cursor: pointer;
 }
 
-nav .boton:hover{
+section .boton:hover{
     background-color: #000;
     color: #fff;
     border: 2px solid #fff;
