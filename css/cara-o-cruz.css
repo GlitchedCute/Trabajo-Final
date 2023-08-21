@@ -1,0 +1,128 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/trabajo-final/image/large-casino-wallpaper-casino-18209296.jpg")
+}
+
+nav .boton{
+    width: 100px;
+	background-color: #1bd47e;
+	border: 2px solid black;
+    padding: 5px;
+	border-radius: 5px;
+	color: white;
+	margin: 16px 16px;
+	font-size: 12px;
+    cursor: pointer;
+}
+
+nav .boton:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+
+
+.container{
+    background-image: url("/trabajo-final/image/textura-tela-verde.jpg");
+    background-size: cover;
+    border: 2px solid gold;
+    border-style: groove;
+    width: 400px;
+    padding: 50px;
+    margin-top: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 15px 30px 35px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.stats{
+    text-align: right;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    line-height: 25px;
+}
+.coin{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 50px auto;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+.coin img{
+    width: 145px;
+}
+.heads,.tails{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+.tails{
+    transform: rotateX(180deg);
+}
+@keyframes spin-tails{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(1980deg);
+    }
+}
+@keyframes spin-heads{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(2160deg);
+    }
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100%;
+	border: 2px solid gold;
+	padding: 12px;
+	border-radius: 5px;
+	color: white;
+	margin: 16px 0;
+	font-size: 20px;
+}
+
+button:hover{
+    background-color: #000;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+#flip-button{
+    margin-right: 5px;
+    background-color: #a00c0c;
+    color: #ffffff;
+}
+#flip-button:disabled{
+    background-color: #e1e0ee;
+    border-color: #e1e0ee;
+    color: #101020;
+}
+#reset-button{
+    background-color: #bdbdbd;
+    color: #a00c0c;
+}

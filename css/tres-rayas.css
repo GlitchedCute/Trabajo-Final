@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/trabajo-final/image/large-casino-wallpaper-casino-18209296.jpg");
+    color: #fff;
+}
+
+nav .boton{
+    width: 100px;
+	background-color: #1bd47e;
+	border: 2px solid black;
+    padding: 5px;
+	border-radius: 5px;
+	color: white;
+	margin: 16px 16px;
+	font-size: 12px;
+    cursor: pointer;
+}
+
+nav .boton:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+main{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    user-select: none;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+.contenedor{
+    background-image: url("/trabajo-final/image/textura-tela-verde.jpg");
+    background-size: cover;
+    padding: 30px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 50px;
+	border: 2px solid gold;
+    
+}
+
+h2{
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#contenedor-informacion{
+    background-color: #a00c0c;
+    padding: 1rem;
+    border: 2px solid gold;
+    border-radius: 1rem;
+    display: none;
+}
+
+#contenedor-informacion h3{
+    font-size: 1rem;
+    line-height: 1.4;
+    letter-spacing: .03rem;
+    margin: 1rem 0;
+}
+
+#contenedor-informacion button{
+    padding: .5rem 1.5rem;
+    background-color: #6e0505;
+    color: #fff;
+    font-size: .9rem;
+    letter-spacing: .02rem;
+    border-radius: .5rem;
+    border: 2px solid gold;
+    margin: .5rem 0;
+    cursor: pointer;
+}
+
+#contenedor-informacion button:hover{
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #000000;
+}
+
+#grilla{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.espacio{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #ebebeb;
+    padding: 3rem;
+}
+
+.borde-abajo{
+    border-bottom: .3rem solid #ebebeb;
+}
+
+.borde-arriba{
+    border-top: .3rem solid #ebebeb;
+}
+
+.borde-costados{
+    border-right: .3rem solid #ebebeb;
+    border-left: .3rem solid #ebebeb;
+}
+
+.posiciones-ganadoras{
+    background-color: #a00c0c;
+}
+
+.color-uno{
+    color: #000000;
+}
+
+.color-dos{
+    color: #ffffff;
+}
+
+@media (min-width: 700px){
+    .espacio{
+        height: 8rem;
+        width: 8rem;
+        font-size: 4rem;
+    }
+}

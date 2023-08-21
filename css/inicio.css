@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/trabajo-final/image/large-casino-wallpaper-casino-18209296.jpg);
+    background-size: cover;
+    margin: 0;
+    color: white;
+}
+
+h1{
+    font-size: 50px
+}
+
+main{
+    margin-top: ;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+}
+
+nav{
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+nav .boton{
+	width: 100px;
+	background-color: #1bd47e;
+	border: 2px solid black;
+    padding: 5px;
+	border-radius: 5px;
+	color: white;
+	margin: 16px 16px;
+	font-size: 12px;
+    cursor: pointer;
+}
+
+nav .boton:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.contenedor{
+    width: 800px;
+	background-image: url("/trabajo-final/image/textura-tela-verde.jpg");
+    background-size: cover;
+	padding: 30px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 100px;
+	border: 2px solid gold;
+    
+}
+
+.juegos .nombre{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.juegos .boton{
+	width: 100%;
+	background-color: #6e0505;
+	border: 2px solid black;
+	padding: 12px;
+	border-radius: 5px;
+	color: white;
+	margin: 16px 0;
+	font-size: 20px;
+}
+
+.juegos .boton:hover{
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.juegos{
+    background-color: #a00c0c;
+    width: 100%;
+    padding: 35px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/trabajo-final/image/large-casino-wallpaper-casino-18209296.jpg");
+	background-size: cover;
+    margin: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+	margin-top: 30px;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
+.input-group{
+	width: 400px;
+	background-image: url("/trabajo-final/image/textura-tela-verde.jpg");
+	background-size: cover;
+	padding: 30px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 100px;
+	border: 2px solid gold;
+}
+
+.input-group h2{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.contenido{
+	width: 100%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	border: 1px solid black;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+.input-group .boton{
+	width: 100%;
+	background-color: #a00c0c;
+	border: 2px solid gold;
+	padding: 12px;
+	border-radius: 5px;
+	color: white;
+	margin: 16px 0;
+	font-size: 20px;
+}
+
+.input-group .boton:hover{
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.input-group p{
+	color: white;
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.input-group a{
+	color: white;
+	text-decoration: none;
+}
+
+.input-group a:hover{
+	color: white;
+	text-decoration: underline;
+}
